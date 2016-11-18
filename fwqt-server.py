@@ -70,7 +70,7 @@ class myThread(threading.Thread):
                        break
              except:
                   txtresponse = "Something went wrong..."
-                  rcvbox.setText = txtresponse
+                  rcvbox.setText (txtresponse)
              finally:
                   connection.close()
        else:
